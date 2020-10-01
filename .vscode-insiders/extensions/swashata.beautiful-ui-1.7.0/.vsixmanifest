@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="beautiful-ui" Version="1.7.0" Publisher="swashata"/>
+    <DisplayName>Beautiful UI</DisplayName>
+    <Description xml:space="preserve">A set of 32 beautiful color themes for VSCode, inspired by Sublime DA UI.</Description>
+    <Tags>Light Theme,Dark Theme,Tomorrow,Monokai,Ayu,theme,color-theme</Tags>
+    <Categories>Themes</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges><Badge Link="https://travis-ci.org/swashata/vscode-beautiful-ui" ImgUri="https://travis-ci.org/swashata/vscode-beautiful-ui.svg?branch=master" Description="Travis Build Status" /><Badge Link="https://codecov.io/gh/swashata/vscode-beautiful-ui" ImgUri="https://codecov.io/gh/swashata/vscode-beautiful-ui/branch/master/graph/badge.svg" Description="Code Coverage" /></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.22.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/swashata/vscode-beautiful-ui" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/swashata/vscode-beautiful-ui" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/swashata/vscode-beautiful-ui" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/swashata/vscode-beautiful-ui/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://vscbui.rocks" />
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/bui-icon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/bui-icon.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
