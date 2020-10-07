@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/etc/sddm.conf.d/sddm.conf.d'
+let g:netrw_dirhist_7='/etc/sddm.conf.d'
+let g:netrw_dirhist_6='/home/verassitnh/Media/Desktop/Personal/Details/Backup Codes'
+let g:netrw_dirhist_5='/home/verassitnh/Media/Desktop/Personal/Details'
+let g:netrw_dirhist_4='/home/verassitnh/Media/Desktop/Personal'
+let g:netrw_dirhist_3='/home/verassitnh/Media/Desktop'
+let g:netrw_dirhist_2='/home/verassitnh/.config/polybar'
+let g:netrw_dirhist_1='/home/verassitnh/.config/qtile'
