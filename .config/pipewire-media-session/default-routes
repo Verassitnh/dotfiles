@@ -1,5 +1,0 @@
-alsa_card.usb-Dictaphone_Corporation_PowerMicII-NS-00:input:analog-input-mic mute:0 volumes:1,0.944046
-alsa_card.usb-Dictaphone_Corporation_PowerMicII-NS-00:output:analog-output-speaker mute:0 volumes:2,0.446686,0.446686
-alsa_card.pci-0000:08:00.1:output:hdmi-output-1 mute:0 volumes:2,1.000000,1.000000
-alsa_card.pci-0000:0a:00.3:output:analog-output-headphones mute:0 volumes:2,0.365173,0.365173
-alsa_card.pci-0000:08:00.1:output:hdmi-output-0 mute:0 volumes:2,1.000000,1.000000
