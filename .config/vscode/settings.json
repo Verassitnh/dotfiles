@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "window.titleBarStyle": "custom",
+    "dart.previewLsp": true,
+    "workbench.iconTheme": "quill-icons",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "autopep8",
+    "workbench.editor.showTabs": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+}
